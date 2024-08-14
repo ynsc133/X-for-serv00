@@ -1,6 +1,6 @@
 >鸣谢 fscarmen2 的开源仓库 [fscarmen2/Argo-Xray-JS-PaaS](https://github.com/fscarmen2/Argo-Xray-JS-PaaS) ，本仓库是基于此仓库的基础进行了 FreeBSD 相关命令的替换，并根据 Serv00 的实际环境进行了部分功能的删减与增加。
 ----
->**直连版本：[X-for-Serv00 Direct Branch](https://github.com/k0baya/X-for-serv00/tree/direct)**
+>**直连版本：[X-for-Serv00 Direct Branch](https://github.com/ynsc133/X-for-serv00/tree/direct)**
 >
 >直连版本实现 Vless、VMess、Trojan 三协议并存，由于不走 Cloudflare CDN，项目特点与 Main 分支不同，部署方法也略有区别，请按需选择。
 ----
@@ -37,7 +37,7 @@ devil binexec on
 ```
 接着断开 SSH 并重新连接，输入以下命令：
 ```shell
-bash <(curl -Ls https://raw.githubusercontent.com/k0baya/x-for-serv00/main/entrypoint.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/ynsc133/x-for-serv00/main/entrypoint.sh)
 ```
 并按照提示输入相关信息。
 
